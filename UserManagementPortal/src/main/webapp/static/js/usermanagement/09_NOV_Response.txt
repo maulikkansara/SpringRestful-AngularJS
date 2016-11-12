@@ -1,0 +1,208 @@
+{
+  "jsonapi": {
+    "version": 1
+  },
+  "data": [
+    {
+      "type": "connections",
+      "links": {
+        "redirect": "http://api.distribusion.com/reseller/v2/connections/redirect?arrival_station_id=717&arrival_time=2016-11-09T17%3A00%3A00&departure_station_id=807&departure_time=2016-11-09T08%3A00%3A00&provider_id=507",
+        "live": "http://api.distribusion.com/reseller/v2/connections/live?arrival_station_id=717&arrival_time=2016-11-09T17%3A00%3A00&departure_station_id=807&departure_time=2016-11-09T08%3A00%3A00&provider_id=507"
+      },
+      "attributes": {
+        "available": true,
+        "ask_for_live_connection_data": true,
+        "departure_time": "2016-11-09T08:00",
+        "arrival_time": "2016-11-09T17:00",
+        "duration_in_seconds": 28800,
+        "customer_currency": "EUR"
+      },
+      "relationships": {
+        "departure": {
+          "data": {
+            "id": 807,
+            "type": "stations"
+          }
+        },
+        "arrival": {
+          "data": {
+            "id": 717,
+            "type": "stations"
+          }
+        },
+        "provider": {
+          "data": {
+            "id": 507,
+            "type": "providers"
+          }
+        },
+        "carrier": {
+          "data": {
+            "id": 325,
+            "type": "carriers"
+          }
+        }
+      }
+    },
+    {
+      "type": "connections",
+      "links": {
+        "redirect": "http://api.distribusion.com/reseller/v2/connections/redirect?arrival_station_id=717&arrival_time=2016-11-09T22%3A15%3A00&departure_station_id=807&departure_time=2016-11-09T13%3A30%3A00&provider_id=507",
+        "live": "http://api.distribusion.com/reseller/v2/connections/live?arrival_station_id=717&arrival_time=2016-11-09T22%3A15%3A00&departure_station_id=807&departure_time=2016-11-09T13%3A30%3A00&provider_id=507"
+      },
+      "attributes": {
+        "available": true,
+        "ask_for_live_connection_data": true,
+        "departure_time": "2016-11-09T13:30",
+        "arrival_time": "2016-11-09T22:15",
+        "duration_in_seconds": 27900,
+        "customer_currency": "EUR"
+      },
+      "relationships": {
+        "departure": {
+          "data": {
+            "id": 807,
+            "type": "stations"
+          }
+        },
+        "arrival": {
+          "data": {
+            "id": 717,
+            "type": "stations"
+          }
+        },
+        "provider": {
+          "data": {
+            "id": 507,
+            "type": "providers"
+          }
+        },
+        "carrier": {
+          "data": {
+            "id": 325,
+            "type": "carriers"
+          }
+        }
+      }
+    },
+    {
+      "type": "connections",
+      "links": {
+        "redirect": "http://api.distribusion.com/reseller/v2/connections/redirect?arrival_station_id=717&arrival_time=2016-11-10T06%3A00%3A00&departure_station_id=807&departure_time=2016-11-09T20%3A00%3A00&provider_id=507",
+        "live": "http://api.distribusion.com/reseller/v2/connections/live?arrival_station_id=717&arrival_time=2016-11-10T06%3A00%3A00&departure_station_id=807&departure_time=2016-11-09T20%3A00%3A00&provider_id=507"
+      },
+      "attributes": {
+        "available": true,
+        "ask_for_live_connection_data": true,
+        "departure_time": "2016-11-09T20:00",
+        "arrival_time": "2016-11-10T06:00",
+        "duration_in_seconds": 32400,
+        "customer_currency": "EUR"
+      },
+      "relationships": {
+        "departure": {
+          "data": {
+            "id": 807,
+            "type": "stations"
+          }
+        },
+        "arrival": {
+          "data": {
+            "id": 717,
+            "type": "stations"
+          }
+        },
+        "provider": {
+          "data": {
+            "id": 507,
+            "type": "providers"
+          }
+        },
+        "carrier": {
+          "data": {
+            "id": 325,
+            "type": "carriers"
+          }
+        }
+      }
+    },
+    {
+      "type": "connections",
+      "links": {
+        "redirect": "http://api.distribusion.com/reseller/v2/connections/redirect?arrival_station_id=717&arrival_time=2016-11-10T07%3A45%3A00&departure_station_id=807&departure_time=2016-11-09T22%3A00%3A00&provider_id=507",
+        "live": "http://api.distribusion.com/reseller/v2/connections/live?arrival_station_id=717&arrival_time=2016-11-10T07%3A45%3A00&departure_station_id=807&departure_time=2016-11-09T22%3A00%3A00&provider_id=507"
+      },
+      "attributes": {
+        "available": true,
+        "ask_for_live_connection_data": true,
+        "departure_time": "2016-11-09T22:00",
+        "arrival_time": "2016-11-10T07:45",
+        "duration_in_seconds": 31500,
+        "customer_currency": "EUR"
+      },
+      "relationships": {
+        "departure": {
+          "data": {
+            "id": 807,
+            "type": "stations"
+          }
+        },
+        "arrival": {
+          "data": {
+            "id": 717,
+            "type": "stations"
+          }
+        },
+        "provider": {
+          "data": {
+            "id": 507,
+            "type": "providers"
+          }
+        },
+        "carrier": {
+          "data": {
+            "id": 325,
+            "type": "carriers"
+          }
+        }
+      }
+    }
+  ],
+  "included": {
+    "providers": [
+      {
+        "id": 507,
+        "type": "providers",
+        "attributes": {
+          "display_name": "Eurolines UK",
+          "customer_booking_fee_in_cents": 117
+        }
+      }
+    ],
+    "carriers": [
+      {
+        "id": 325,
+        "type": "carriers",
+        "attributes": {
+          "legal_name": "Eurolines UK"
+        }
+      }
+    ],
+    "stations": [
+      {
+        "id": 807,
+        "type": "stations",
+        "attributes": {
+          "name": "London Victoria Station"
+        }
+      },
+      {
+        "id": 717,
+        "type": "stations",
+        "attributes": {
+          "name": "Paris Galliéni (Bagnolet)"
+        }
+      }
+    ]
+  }
+}
